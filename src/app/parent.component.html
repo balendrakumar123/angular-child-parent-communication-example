@@ -1,0 +1,7 @@
+<div>
+  <h2>Parent Component</h2>
+
+  Value received from child component : <h4>{{valueFromChild}}</h4>
+
+  <child-component (sendChildValue)="valueFromChild = $event"></child-component>
+</div>
